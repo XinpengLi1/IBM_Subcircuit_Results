@@ -717,7 +717,6 @@ def remove_idle_wires(qc: QuantumCircuit):
     return qc_out
 
 #################### Noise evaluate ####################
-from Optpass import opt_pass
 
 def generate_binary_strings(n):
     """

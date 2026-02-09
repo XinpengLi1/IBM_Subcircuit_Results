@@ -1,7 +1,6 @@
 from circuit_knitting.cutting.cutqc.wire_cutting import _generate_metadata
 from multiprocessing.pool import ThreadPool
 from typing import Sequence, Any
-from Optpass.Optpass import opt_pass
 # from Deferred_measurement_Opt import Deferred_measurement_Opt
 from qiskit_ibm_runtime import Options
 from circuit_knitting.cutting.cutqc.wire_cutting_evaluation import  mutate_measurement_basis,measure_prob
